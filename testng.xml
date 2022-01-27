@@ -1,4 +1,4 @@
-<suite name="regression suite">
+<suite name="Sanity Test">
 
 <test name="regression test">
 

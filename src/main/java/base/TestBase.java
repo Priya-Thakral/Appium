@@ -34,6 +34,10 @@ public class TestBase extends CommonUtils {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils.copyFile(scrFile, new File(System.getProperty("user.dir")+"\\reports\\"+fileName));
+
+
+                System.out.println(" Screenshot")
+
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
