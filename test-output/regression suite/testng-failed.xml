@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression suite]">
+  <test thread-count="5" name="regression test(failed)">
+    <classes>
+      <class name="testcases.DashboardTest">
+        <methods>
+          <include name="saveReport"/>
+          <include name="testDashboard" invocation-numbers="0"/>
+          <include name="stopServer"/>
+          <include name="generateHTMLReport"/>
+        </methods>
+      </class> <!-- testcases.DashboardTest -->
+    </classes>
+  </test> <!-- regression test(failed) -->
+</suite> <!-- Failed suite [regression suite] -->

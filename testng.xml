@@ -1,0 +1,26 @@
+<suite name="regression suite">
+
+<test name="regression test">
+
+
+
+
+<classes>
+
+
+
+<class name="testcases.LoginTest"/>
+
+<class name="testcases.DashboardTest"/>
+
+
+
+</classes>
+
+
+</test>
+
+
+
+
+</suite>

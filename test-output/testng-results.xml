@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25004" started-at="2021-12-14T12:30:14 IST" finished-at="2021-12-14T12:30:39 IST">
+    <groups>
+    </groups>
+    <test name="FlipboardCopyTest11" duration-ms="25004" started-at="2021-12-14T12:30:14 IST" finished-at="2021-12-14T12:30:39 IST">
+      <class name="testcases.FlipBoardCopyTest">
+        <test-method status="PASS" signature="generateHTMLReport()[pri:0, instance:testcases.FlipBoardCopyTest@436e852b]" name="generateHTMLReport" is-config="true" duration-ms="23471" started-at="2021-12-14T12:29:51 IST" finished-at="2021-12-14T12:30:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateHTMLReport -->
+        <test-method status="PASS" signature="testcase1()[pri:1, instance:testcases.FlipBoardCopyTest@436e852b]" name="testcase1" duration-ms="24901" started-at="2021-12-14T12:30:14 IST" finished-at="2021-12-14T12:30:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="saveReport()[pri:0, instance:testcases.FlipBoardCopyTest@436e852b]" name="saveReport" is-config="true" duration-ms="581" started-at="2021-12-14T12:30:39 IST" finished-at="2021-12-14T12:30:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:testcases.FlipBoardCopyTest@436e852b]" name="stopServer" is-config="true" duration-ms="60" started-at="2021-12-14T12:30:40 IST" finished-at="2021-12-14T12:30:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- testcases.FlipBoardCopyTest -->
+    </test> <!-- FlipboardCopyTest11 -->
+  </suite> <!-- Suite -->
+</testng-results>
